@@ -1,4 +1,4 @@
-FROM docker:1.12
+FROM docker:1.13
 
 RUN set -xe \
     && apk add --no-cache --virtual .build-deps \
